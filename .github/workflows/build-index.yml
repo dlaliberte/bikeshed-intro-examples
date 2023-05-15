@@ -1,4 +1,4 @@
-name: Build-index
+name: BuildIndex
 on:
   pull_request: {}
   push:
