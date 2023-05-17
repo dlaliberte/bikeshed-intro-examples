@@ -1,0 +1,39 @@
+<pre class='metadata'>
+Title: Common Sections of Specifications
+Shortname: your-spec
+Level: 1
+Status: w3c/UD
+Group: WGNAMEORWHATEVER
+URL: http://example.com/url-this-spec-will-live-at
+Editor: Your Name, Your Company http://example.com/your-company, your-email@example.com, http://example.com/your-personal-website
+Abstract: The Abstract section provides a summary of the standard, including its purpose, scope, and key features. It's usually a short, standalone section that appears at the beginning of the document, before the Introduction.
+</pre>
+
+Introduction {#introduction}
+=====================
+
+The Introduction section provides an overview of the technology being specified.
+It should be written in a clear and concise way that is easy for the target audience to understand. It should also be consistent with the tone and style of the rest of the web standard.
+
+It could include the following information:
+
+- The target audience for the web standard.
+- A brief overview of the web standard and its purpose.
+- A description of the scope of the web standard.
+
+The scope of a web standard is the range of topics that it covers and what is not included.  The scope of a web standard can be defined in terms of the following:
+
+- The technologies that are covered by the standard.
+- The features that are included in the standard.
+
+
+API Sections {#api_1}
+=====================
+
+These sections specify the programming interface for implementing the standard
+using webIDL and infra.
+
+Definitions {#definitions}
+=====================
+
+This section defines key terms and concepts used in the standard.

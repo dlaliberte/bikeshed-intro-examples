@@ -1,0 +1,60 @@
+<pre class='metadata'>
+Title: Example of a Widget Specification
+Shortname: your-spec
+Level: 1
+Status: w3c/UD
+Group: WGNAMEORWHATEVER
+URL: http://example.com/url-this-spec-will-live-at
+Editor: Your Name, Your Company http://example.com/your-company, your-email@example.com, http://example.com/your-personal-website
+Abstract: This documents a fictitious Widget Specification.
+
+</pre>
+
+Introduction {#introduction}
+=====================
+
+This document describes the Web Standard for Widgets, which is a set of guidelines for creating and using widgets. Widgets are small, self-contained applications that can be embedded in a web page. They are typically used to provide additional functionality to a web page, such as a calendar, a weather forecast, or a news ticker.
+
+The Web Standard for Widgets is based on the following principles:
+
+- Openness: The Web Standard for Widgets is open and free to use. Anyone can create or use widgets that conform to the standard.
+- Extensibility: The Web Standard for Widgets is extensible. This means that new widgets can be added to the standard without affecting existing widgets.
+- Compatibility: The Web Standard for Widgets is designed to be compatible with existing web technologies. This means that widgets can be used in web pages that are created using standard web technologies.
+
+The Web Standard for Widgets is a work in progress. We welcome feedback and suggestions for improvement. Please contact us at [email protected] if you have any questions or comments.
+
+
+API Sections {#api_1}
+=====================
+
+The Web Standard for Widgets defines the following API:
+
+* The `Widget` interface: This interface represents a widget.
+* The `WidgetManager` interface: This interface represents a widget manager.
+* The `WidgetRegistry` interface: This interface represents a widget registry.
+
+The `Widget` interface defines the following methods:
+
+* `init`: This method is called when the widget is first created.
+* `update`: This method is called to update the widget.
+* `destroy`: This method is called when the widget is destroyed.
+
+The `WidgetManager` interface defines the following methods:
+
+* `createWidget`: This method is called to create a new widget.
+* `getWidget`: This method is called to get a widget by its ID.
+* `destroyWidget`: This method is called to destroy a widget.
+
+The `WidgetRegistry` interface defines the following methods:
+
+* `registerWidget`: This method is called to register a widget with the registry.
+* `getWidgetById`: This method is called to get a widget by its ID from the registry.
+* `unregisterWidget`: This method is called to unregister a widget from the registry.
+
+## Definitions {#definitions}
+
+The following definitions are used in this document:
+
+* Widget: A small, self-contained application that can be embedded in a web page.
+* Widget manager: An object that manages widgets.
+* Widget registry: A database of widgets.

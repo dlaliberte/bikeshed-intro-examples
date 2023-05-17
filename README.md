@@ -1,4 +1,4 @@
-# Bikeshed spec template
+# Bikeshed spec template explainer
 
 This is the repository for Bikeshed spec template. You're welcome to
 [contribute](CONTRIBUTING.md)!
