@@ -1,5 +1,5 @@
 <pre class='metadata'>
-Title: My Widget API
+Title: Bikeshed spec template
 Shortname: bikeshed-intro-examples
 Level: 1
 Status: CG-DRAFT
