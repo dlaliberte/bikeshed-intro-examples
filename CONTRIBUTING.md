@@ -1,6 +1,6 @@
-# My Widget API
+# Bikeshed spec template
 
-This repository is being used for work in the W3C My Widget API, governed by the [W3C Community License
+This repository is being used for work in the W3C Bikeshed spec template, governed by the [W3C Community License
 Agreement (CLA)](http://www.w3.org/community/about/agreements/cla/). To make substantive contributions,
 you must join the CG.
 

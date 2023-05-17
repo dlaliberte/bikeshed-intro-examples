@@ -1,6 +1,6 @@
-# My Widget API explainer
+# Bikeshed spec template
 
-This is the repository for My Widget API. You're welcome to
+This is the repository for Bikeshed spec template. You're welcome to
 [contribute](CONTRIBUTING.md)!
 
 To fill this out, please see: https://github.com/w3ctag/w3ctag.github.io/blob/master/explainers.md
