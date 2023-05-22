@@ -8,18 +8,18 @@ Editor: John Doe <john.doe@example.com>
 Repository: https://github.com/example/gizmo
 ED: https://example.com/gizmo
 TR: https://www.w3.org/TR/gizmo
-Abstract: This specification defines the `<gizmo>` element, which allows the embedding of interactive gizmos within an HTML document.
+Abstract: This specification defines the `&lt;gizmo>` element, which allows the embedding of interactive gizmos within an HTML document.
 </pre>
 
 
 ## Introduction {#introduction}
 
-The `<gizmo>` element provides a standardized way to include interactive gizmos within HTML documents. These gizmos can enhance user experience and enable dynamic functionality.
+The `&lt;gizmo>` element provides a standardized way to include interactive gizmos within HTML documents. These gizmos can enhance user experience and enable dynamic functionality.
 
 ## Element Reference {#element-reference}
 
-### <gizmo> Element {#gizmo-element}
-The `<gizmo>` element represents an interactive gizmo embedded within an HTML document.
+### &lt;gizmo> Element {#gizmo-element}
+The `&lt;gizmo>` element represents an interactive gizmo embedded within an HTML document.
 
 #### Attributes {#gizmo-attributes}
 - `src`: Specifies the URL of the gizmo's content.
@@ -31,3 +31,4 @@ The `<gizmo>` element represents an interactive gizmo embedded within an HTML do
 #### Example Usage {#example-usage}
 ```html
 <gizmo src="https://example.com/gizmo" width="300" height="200" allowfullscreen></gizmo>
+```
