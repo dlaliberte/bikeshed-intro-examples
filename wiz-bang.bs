@@ -1,0 +1,55 @@
+<pre class='metadata'>
+Title: Wiz-Bang Header Specification
+Shortname: wiz-bang
+Level: 1
+Status: iso/WD
+Group: HTTP Working Group
+Editor: John Doe <john.doe@example.com>
+Repository: https://github.com/example/wiz-bang
+ED: https://example.com/wiz-bang
+TR:
+Abstract: This specification defines the "Wiz-Bang" header field for use in the HTTP protocol.
+</pre>
+
+## Introduction {#introduction}
+
+The "Wiz-Bang" header field provides custom functionality and additional information in HTTP requests and responses.
+
+## Header Field Definition {#header-definition}
+
+### Field Name {#field-name}
+Wiz-Bang
+
+### Field Value {#field-value}
+The value of the "Wiz-Bang" header field can be any valid string value.
+
+### Syntax {#syntax}
+
+Wiz-Bang: value
+
+### Example Usage {#example-usage}
+
+Wiz-Bang: ExampleValue
+
+## Examples {#examples}
+
+### Example Request {#example-request}
+```
+GET /api/data HTTP/1.1
+Host: example.com
+Wiz-Bang: HelloServer
+```
+
+### Example Response {#example-response}
+```
+HTTP/1.1 200 OK
+Content-Type: application/json
+Wiz-Bang: ServerResponse
+Content-Length: 123
+
+{"message": "Response data"}
+```
+
+
+## References {#references}
+- Hypertext Transfer Protocol (HTTP/1.1): https://www.rfc-editor.org/rfc/rfc7230
