@@ -13,16 +13,11 @@ Abstract: This specification defines the box model used in CSS, which describes 
 
 CSS Specification Example
 
-[Title]
-CSS Box Model Specification
 
-[Abstract]
+Introduction {#intro}
+=====================
 This specification defines the box model used in CSS, which describes the layout and rendering of elements on a web page.
 
-[Status]
-Working Draft
-
-[Introduction]
 ## Box Model Overview {#box-model-overview}
 
 The box model consists of the following components:
