@@ -1,0 +1,69 @@
+<pre class='metadata'>
+Title: CSS Box Model Specification
+Shortname: css-box-model
+Level: 1
+Status: w3c/WD
+Group: CSS Working Group
+Editor: John Doe <john.doe@example.com>
+Repository: https://github.com/example/css-box-model
+ED: https://example.com/css-box-model
+TR: https://www.w3.org/TR/css-box-model
+Abstract: This specification defines the box model used in CSS, which describes the layout and rendering of elements on a web page.
+</pre>
+
+CSS Specification Example
+
+[Title]
+CSS Box Model Specification
+
+[Abstract]
+This specification defines the box model used in CSS, which describes the layout and rendering of elements on a web page.
+
+[Status]
+Working Draft
+
+[Introduction]
+## Box Model Overview {#box-model-overview}
+
+The box model consists of the following components:
+- Content box: The inner area where the element's content is displayed.
+- Padding: The space between the content box and the element's border.
+- Border: The line that surrounds the content and padding.
+- Margin: The space between the element and its neighboring elements.
+
+## Box Model Properties {#box-model-properties}
+
+The following properties control the box model:
+
+### width {#box-model-width}
+- Value: `<length> | <percentage> | auto`
+- Default: `auto`
+- Description: Sets the width of the element's content box.
+
+### height {#box-model-height}
+- Value: `<length> | <percentage> | auto`
+- Default: `auto`
+- Description: Sets the height of the element's content box.
+
+### padding {#box-model-padding}
+- Value: `<length> | <percentage>`
+- Default: `0`
+- Description: Sets the padding space around the element's content box.
+
+### border {#box-model-border}
+- Value: `<border-width> | <border-style> | <color>`
+- Default: `none`
+- Description: Sets the border of the element.
+
+### margin {#box-model-margin}
+- Value: `<length> | <percentage>`
+- Default: `0`
+- Description: Sets the margin space around the element.
+
+[Section]
+## Examples {#Examples}
+
+### Example 1 {#Example-1}
+```html
+<div style="width: 200px; height: 100px; padding: 10px; border: 1px solid black; margin: 20px;"></div>
+```
