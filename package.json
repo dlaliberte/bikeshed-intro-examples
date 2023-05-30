@@ -1,0 +1,29 @@
+{
+  "name": "bikeshed-intro-examples",
+  "version": "1.0.0",
+  "description": "Simple examples of specifications written in bikeshed",
+  "main": "index.js",
+  "scripts": {
+    "html-validate": "java -jar 'node_modules/vnu-jar/build/dist/vnu.jar' --also-check-css box-model.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlaliberte/bikeshed-intro-examples.git"
+  },
+  "keywords": [
+    "bikeshed",
+    "intro",
+    "examples"
+  ],
+  "author": "Daniel LaLiberte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dlaliberte/bikeshed-intro-examples/issues"
+  },
+  "homepage": "https://github.com/dlaliberte/bikeshed-intro-examples#readme",
+  "dependencies": {
+    "pnpm": "^8.5.1",
+    "vnu-jar": "^23.4.11"
+  }
+}

@@ -1,0 +1,22 @@
+lockfileVersion: '6.0'
+
+dependencies:
+  pnpm:
+    specifier: ^8.5.1
+    version: 8.5.1
+  vnu-jar:
+    specifier: ^23.4.11
+    version: 23.4.11
+
+packages:
+
+  /pnpm@8.5.1:
+    resolution: {integrity: sha512-W6elL7Nww0a/MCICkzpkbxW6f99TQuX4DuJoDjWp39X08PKDkEpg4cgj3d6EtgYADcdQWl/eM8NdlLJVE3RgpA==}
+    engines: {node: '>=16.14'}
+    hasBin: true
+    dev: false
+
+  /vnu-jar@23.4.11:
+    resolution: {integrity: sha512-lI5dzBYXtxhilNI7EeQ5iUduYnNBq7YWx4UjfBVLXfBQHnXYZSf3y3bpM0bSyDU6jy/+OyKV7nw4tzpR5lXSZg==}
+    engines: {node: '>=0.10'}
+    dev: false

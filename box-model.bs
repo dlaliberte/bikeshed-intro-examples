@@ -31,27 +31,27 @@ The box model consists of the following components:
 The following properties control the box model:
 
 ### width {#box-model-width}
-- Value: `<length> | <percentage> | auto`
+- Value: `[length] | [percentage] | auto`
 - Default: `auto`
 - Description: Sets the width of the element's content box.
 
 ### height {#box-model-height}
-- Value: `<length> | <percentage> | auto`
+- Value: `[length] | [percentage] | auto`
 - Default: `auto`
 - Description: Sets the height of the element's content box.
 
 ### padding {#box-model-padding}
-- Value: `<length> | <percentage>`
+- Value: `[length] | [percentage]`
 - Default: `0`
 - Description: Sets the padding space around the element's content box.
 
 ### border {#box-model-border}
-- Value: `<border-width> | <border-style> | <color>`
+- Value: `[border-width] | [border-style] | [color]`
 - Default: `none`
 - Description: Sets the border of the element.
 
 ### margin {#box-model-margin}
-- Value: `<length> | <percentage>`
+- Value: `[length] | [percentage]`
 - Default: `0`
 - Description: Sets the margin space around the element.
 
