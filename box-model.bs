@@ -18,7 +18,7 @@ Introduction {#intro}
 =====================
 This specification defines the box model used in CSS, which describes the layout and rendering of elements on a web page.
 
-## Box Model Overview {#box-model-overview}
+## Box Model Overview ## {#box-model-overview}
 
 The box model consists of the following components:
 - Content box: The inner area where the element's content is displayed.
@@ -26,31 +26,31 @@ The box model consists of the following components:
 - Border: The line that surrounds the content and padding.
 - Margin: The space between the element and its neighboring elements.
 
-## Box Model Properties {#box-model-properties}
+## Box Model Properties ## {#box-model-properties}
 
 The following properties control the box model:
 
-### width {#box-model-width}
+### width ### {#box-model-width}
 - Value: `[length] | [percentage] | auto`
 - Default: `auto`
 - Description: Sets the width of the element's content box.
 
-### height {#box-model-height}
+### height ### {#box-model-height}
 - Value: `[length] | [percentage] | auto`
 - Default: `auto`
 - Description: Sets the height of the element's content box.
 
-### padding {#box-model-padding}
+### padding ### {#box-model-padding}
 - Value: `[length] | [percentage]`
 - Default: `0`
 - Description: Sets the padding space around the element's content box.
 
-### border {#box-model-border}
+### border ### {#box-model-border}
 - Value: `[border-width] | [border-style] | [color]`
 - Default: `none`
 - Description: Sets the border of the element.
 
-### margin {#box-model-margin}
+### margin ### {#box-model-margin}
 - Value: `[length] | [percentage]`
 - Default: `0`
 - Description: Sets the margin space around the element.
