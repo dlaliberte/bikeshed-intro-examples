@@ -4,7 +4,7 @@
   "description": "Simple examples of specifications written in bikeshed",
   "main": "index.js",
   "scripts": {
-    "html-validate": "java -jar 'node_modules/vnu-jar/build/dist/vnu.jar' --also-check-css box-model.html",
+    "html-validate": "java -jar 'node_modules/vnu-jar/build/dist/vnu.jar' --also-check-css ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

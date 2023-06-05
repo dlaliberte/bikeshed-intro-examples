@@ -4,10 +4,9 @@ Shortname: your-spec
 Level: 1
 Status: w3c/UD
 Group: WGNAMEORWHATEVER
-URL: http://example.com/url-this-spec-will-live-at
+URL: https://dlaliberte.github.io/bikeshed-intro-examples/widgets.html
 Editor: Your Name, Your Company http://example.com/your-company, your-email@example.com, http://example.com/your-personal-website
 Abstract: This documents a fictitious Widget Specification.
-
 </pre>
 
 Introduction {#introduction}
@@ -51,7 +50,7 @@ The `WidgetRegistry` interface defines the following methods:
 * `getWidgetById`: This method is called to get a widget by its ID from the registry.
 * `unregisterWidget`: This method is called to unregister a widget from the registry.
 
-## Definitions {#definitions}
+## Definitions ## {#definitions}
 
 The following definitions are used in this document:
 
