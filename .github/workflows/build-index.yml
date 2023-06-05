@@ -2,6 +2,8 @@ name: BuildIndex
 on:
   pull_request: {}
   push:
+    paths:
+      - index.bs
     branches:
     - main
 jobs:

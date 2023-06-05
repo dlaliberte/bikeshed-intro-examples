@@ -2,6 +2,8 @@ name: BuildSections
 on:
   pull_request: {}
   push:
+    paths:
+      - sections.bs
     branches:
     - main
 jobs:

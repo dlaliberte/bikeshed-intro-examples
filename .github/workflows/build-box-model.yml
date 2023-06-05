@@ -2,6 +2,8 @@ name: BuildBoxModel
 on:
   pull_request: {}
   push:
+    paths:
+      - box-model.bs
     branches:
     - main
 jobs:

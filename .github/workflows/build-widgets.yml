@@ -2,6 +2,8 @@ name: BuildWidgets
 on:
   pull_request: {}
   push:
+    paths:
+      - widgets.bs
     branches:
     - main
 jobs:
